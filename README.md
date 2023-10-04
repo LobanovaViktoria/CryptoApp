@@ -3,4 +3,4 @@
 
 # Ссылки
 
-CoinGecko API: - [посмотреть]([https://www.coingecko.com/en/api])
+CoinGecko API: - [посмотреть](https://www.coingecko.com/en/api)
