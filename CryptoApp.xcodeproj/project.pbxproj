@@ -20,6 +20,7 @@
 		32AB93022AC6FCFF003BDC26 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB93012AC6FCFF003BDC26 /* CoinRowView.swift */; };
 		32AB93042AC702AA003BDC26 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB93032AC702AA003BDC26 /* Double.swift */; };
 		32AB93062ACD7C71003BDC26 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB93052ACD7C71003BDC26 /* HomeViewModel.swift */; };
+		32AB93092ACD94B5003BDC26 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AB93082ACD94B5003BDC26 /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		32AB93012AC6FCFF003BDC26 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		32AB93032AC702AA003BDC26 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		32AB93052ACD7C71003BDC26 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		32AB93082ACD94B5003BDC26 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		32AB92DD2AC55A34003BDC26 /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				32AB93072ACD948E003BDC26 /* Services */,
 				32AB92FC2AC6F12D003BDC26 /* Models */,
 				32AB92F02AC5B03D003BDC26 /* Core */,
 				32AB92EC2AC55D35003BDC26 /* Extensions */,
@@ -158,6 +161,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		32AB93072ACD948E003BDC26 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				32AB93082ACD94B5003BDC26 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -228,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32AB93092ACD94B5003BDC26 /* CoinDataService.swift in Sources */,
 				32AB93022AC6FCFF003BDC26 /* CoinRowView.swift in Sources */,
 				32AB93062ACD7C71003BDC26 /* HomeViewModel.swift in Sources */,
 				32AB92E12AC55A34003BDC26 /* ContentView.swift in Sources */,
@@ -375,7 +387,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -405,7 +417,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
