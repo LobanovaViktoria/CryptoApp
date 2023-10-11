@@ -27,10 +27,10 @@ class HomeViewModel: ObservableObject {
     }
     
     init() {
-        addSubscribes()
+        addSubscribers()
     }
     
-    func addSubscribes() {
+    func addSubscribers() {
         
         //updates allCoins
         $searchText
