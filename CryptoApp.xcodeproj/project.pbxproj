@@ -12,6 +12,7 @@
 		324A7E0C2AD026D200196DA3 /* HomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324A7E0B2AD026D200196DA3 /* HomeStatsView.swift */; };
 		324A7E0E2AD02BA900196DA3 /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 324A7E0D2AD02BA900196DA3 /* MarketDataModel.swift */; };
 		327666202AD5756A00B0BA0E /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3276661F2AD5756A00B0BA0E /* HapticManager.swift */; };
+		327666252AD68EA500B0BA0E /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327666242AD68EA500B0BA0E /* DetailView.swift */; };
 		32A984E82AD400B0009591A1 /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A984E72AD400B0009591A1 /* MarketDataService.swift */; };
 		32A984EA2AD42993009591A1 /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A984E92AD42993009591A1 /* PortfolioView.swift */; };
 		32A984EC2AD42E3D009591A1 /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A984EB2AD42E3D009591A1 /* XMarkButton.swift */; };
@@ -47,6 +48,7 @@
 		324A7E0B2AD026D200196DA3 /* HomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStatsView.swift; sourceTree = "<group>"; };
 		324A7E0D2AD02BA900196DA3 /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		3276661F2AD5756A00B0BA0E /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		327666242AD68EA500B0BA0E /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		32A984E72AD400B0009591A1 /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		32A984E92AD42993009591A1 /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
 		32A984EB2AD42E3D009591A1 /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
@@ -88,6 +90,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		327666212AD68E7500B0BA0E /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				327666232AD68E8300B0BA0E /* Views */,
+				327666222AD68E8000B0BA0E /* ViewModel */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		327666222AD68E8000B0BA0E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		327666232AD68E8300B0BA0E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				327666242AD68EA500B0BA0E /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		32AB92D22AC55A34003BDC26 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +170,7 @@
 			children = (
 				32AB92F62AC5B2FE003BDC26 /* Components */,
 				32AB92F12AC5B044003BDC26 /* Home */,
+				327666212AD68E7500B0BA0E /* Detail */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -325,6 +352,7 @@
 				32AB92DF2AC55A34003BDC26 /* CryptoAppApp.swift in Sources */,
 				32AB93192ACFE2DF003BDC26 /* UIApplication.swift in Sources */,
 				32AB92F92AC5B32E003BDC26 /* CircleButtonView.swift in Sources */,
+				327666252AD68EA500B0BA0E /* DetailView.swift in Sources */,
 				327666202AD5756A00B0BA0E /* HapticManager.swift in Sources */,
 				32AB92EE2AC55D4E003BDC26 /* Color.swift in Sources */,
 				32AB93172ACED8C1003BDC26 /* SearchBarView.swift in Sources */,
