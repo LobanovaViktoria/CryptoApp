@@ -9,8 +9,12 @@ Market Data API: - [посмотреть](https://api.coingecko.com/api/v3/globa
 Скринкаст работы приложения - [посмотреть](https://disk.yandex.ru/i/rE1xgW96hneByw)    
 
 # Иллюстрации
-![Изображение 1](nft1.png)  
-![Изображение 2](nft2.png)  
+![Изображение 1](crypto1.png)  
+![Изображение 2](crypto2.png) 
+![Изображение 3](crypto3.png) 
+![Изображение 4](crypto4.png) 
+![Изображение 5](crypto5.png) 
+![Изображение 5](crypto6.png) 
 
 # Назначение и цели приложения
 
