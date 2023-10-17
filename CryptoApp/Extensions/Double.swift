@@ -26,7 +26,6 @@ extension Double {
         let number = NSNumber(value: self)
         return currencyFormatter2.string(from: number) ?? "$0.00"
     }
-
     
     /// Converts a Double into a Currency with 2-6 decimal places
     /// ```
@@ -72,8 +71,7 @@ extension Double {
     func asPercentString() -> String {
         return asNumberString() + "%"
     }
-    
-    
+ 
     /// Convert a Double to a String with K, M, Bn, Tr abbreviations.
     /// ```
     /// Convert 12 to 12.00
@@ -112,6 +110,4 @@ extension Double {
             return "\(sign)\(self)"
         }
     }
-
-    
 }
